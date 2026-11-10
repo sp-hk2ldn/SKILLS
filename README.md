@@ -17,9 +17,12 @@ These work with [searchads-cli](https://github.com/sp-hk2ldn/searchads-cli), a G
 Apple Ads Platform API (`brew install sp-hk2ldn/tap/searchads`). The guidance is useful on its
 own too.
 
+They were distilled from Apple's official Apple Ads Certification (formerly Apple Search Ads
+Certification) course materials and exam, then turned into working rules an agent can apply.
+
 | Skill | What it does |
 | --- | --- |
-| [`apple-ads-certification-core`](apple-ads-certification-core/) | Campaign structure (brand, category, competitor, discovery), keyword match types, Search Match and how to read performance, based on Apple Ads certification material. |
+| [`apple-ads-certification-core`](apple-ads-certification-core/) | Campaign structure (brand, category, competitor, discovery), keyword match types, Search Match and how to read performance. |
 | [`apple-ads-discovery-promotion`](apple-ads-discovery-promotion/) | The weekly discovery, promotion and isolation loop: turn search terms that convert into exact-match keywords and add negatives so campaigns don't compete with each other. |
 | [`apple-ads-placements-creative`](apple-ads-placements-creative/) | Ad placements (Today tab, Search tab, search results, product pages), custom product pages and ad variations. |
 

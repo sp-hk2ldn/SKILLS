@@ -1,6 +1,6 @@
 # Apple Ads Certification Findings (Extracted)
 
-Summarised from Apple Ads certification material, observed 2026-01-31.
+Distilled from Apple's official Apple Ads Certification course materials and exam, observed 2026-01-31.
 
 ## Observed guidance
 - Use keyword themes across Brand, Category, Competitor, and Discovery.
