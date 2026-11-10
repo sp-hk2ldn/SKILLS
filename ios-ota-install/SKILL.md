@@ -14,6 +14,17 @@ Only devices on the tailnet can open the link, and only devices in the app's pro
 profile can install it. Nothing goes to Apple, TestFlight or the public internet. Never use
 `tailscale funnel` for this.
 
+## Why not the usual routes
+
+- **Xcode or `devicectl` over Tailscale:** they find phones by local-network discovery
+  (Bonjour), which Tailscale does not carry, so the phone shows as "unavailable".
+- **TestFlight:** needs an upload, processing and sometimes review. Minutes to hours, and the
+  build leaves your machine.
+- **Third-party hosts (Diawi and similar):** the IPA goes to someone else's server behind a
+  public link.
+
+This route takes seconds, stays on your own tailnet and needs nothing beyond Tailscale.
+
 ## Requirements
 
 - macOS with Xcode command-line tools (`xcodebuild`, `xcrun devicectl`, `codesign`, `security`).
